@@ -1,7 +1,7 @@
-package com.github.irobot.controller;
+package com.github.chat.controller;
 
-import com.github.irobot.controller.entity.Message;
-import com.github.irobot.controller.repository.MessageRepository;
+import com.github.chat.controller.entity.Message;
+import com.github.chat.controller.repository.MessageRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

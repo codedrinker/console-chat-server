@@ -1,6 +1,6 @@
-package com.github.irobot.controller.repository;
+package com.github.chat.controller.repository;
 
-import com.github.irobot.controller.entity.Message;
+import com.github.chat.controller.entity.Message;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import lombok.extern.slf4j.Slf4j;
@@ -55,6 +55,7 @@ public class MessageRepository {
                 }
                 toReads.add(message);
             }
+            
             return toReads;
         } catch (Exception e) {
             log.error("send error", e);

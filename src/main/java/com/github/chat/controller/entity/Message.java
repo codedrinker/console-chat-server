@@ -1,4 +1,4 @@
-package com.github.irobot.controller.entity;
+package com.github.chat.controller.entity;
 
 import lombok.Data;
 
